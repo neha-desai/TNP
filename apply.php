@@ -26,7 +26,7 @@
         <a class="home" href="index.php">Home</a>
         <a class="seminar" href="seminar.php">Seminar</a>
         <a class="active" href="#apply">Apply</a>
-        <a href="#contact">Contact</a>
+        <a href="index.php#contact">Contact</a>
         <a href="index.php#aboutus">About</a>
       </div>
     </div>
@@ -1157,5 +1157,9 @@
         </div>
       </div>
     </section>
+
+    <footer>
+  This site is created by Universal College
+</footer>
   </body>
 </html>

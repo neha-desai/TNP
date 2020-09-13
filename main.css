@@ -90,8 +90,12 @@ body {
   font-size: 50px;
   padding: 20px;
   text-align: center;
-  padding-top: 5%;
+  padding-top: 9%;
   font-weight: 800;
+}
+
+#contactdetails {
+  font-size: 19px;
 }
 
 /* Float four columns side by side */
@@ -608,4 +612,12 @@ main > .btn {
 #more16,
 #more17 {
   display: none;
+}
+
+footer {
+  background-color: #00334e;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  font-size: 16px;
+  color: white;
 }

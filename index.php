@@ -48,7 +48,7 @@
     <div class="wallpaper" style="position: relative;">
     <img
       class="fill"
-      src="wallpaper.jpg"
+      src="photo-1454165804606-c3d57bc86b40.jpg"
       alt="office"
       style="width: 100%; height: auto; z-index: -1; position: relative"
     />
@@ -60,7 +60,7 @@
     <br />
 
     <!--CARDS-->
-    <div class="row" style="margin: -30px 30px 0px 30px; z-index: 3">
+    <div class="row" style="margin: -70px 30px 0px 30px; z-index: 3">
       <div class="column">
         <div class="card" style="background-color: #00334e">
           <span class="far fa-building"></span>
@@ -259,7 +259,36 @@ function showSlides(n) {
 //SCROLLING JS 
 AOS.init();
 </script>
+<br><br>
+<!--CONTACT US -->
+<div data-aos="fade-up" id="contact">
+<div class="container"  id="aboutus">
+  <h1 class="element">CONTACT US</h1>
+<br>
+
+<div class="row">
+  <div class="col-md-6">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3764.429316804004!2d72.91444451490541!3d19.350554786931003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7a56dd564fc65%3A0xdedc6f62731ee7eb!2sUniversal%20College%20of%20Engineering%20Mumbai!5e0!3m2!1sen!2sin!4v1600005804412!5m2!1sen!2sin" width="470" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  </div>
+
+  <div class="col-md-1" id="contactdetails">
+  <p><span class="fas fa-map-marker-alt"> </span></p><br>
+  <p><span class="fas fa-phone"> </span></p><br>
+  <p><span class="fas fa-envelope"> </span></p><br>
+  </div>
+  
+  <div class="col-md-5" style="margin-left: -40px;">
+  Near Bhajansons & Punyadham Kaman, Bhiwandi Rd, Vasai-Virar, Maharashtra 401208 <br><br>
+  <p>080070 00755</p><br>
+  <p>universal@gmail.com</p>
+  </div>
+  </div>
+</div>
+</div>
 
 
+<footer>
+  This site is created by Universal College
+</footer>
 </body>
 </html>

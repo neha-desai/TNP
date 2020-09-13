@@ -76,7 +76,7 @@ table > .btn {
         <a class="home" href="index.html">Home</a>
         <a class="active" href="seminar.php">Seminar</a>
         <a class="apply" href="apply.php">Apply</a>
-        <a href="#contact">Contact</a>
+        <a href="index.php#contact">Contact</a>
         <a href="index.php#aboutus">About</a>
       </div>
     </div>
@@ -117,7 +117,7 @@ table > .btn {
                echo '<td>'.$resultArray['seminar_name'].'</td>';
                echo '<td>'.$resultArray['speaker'].'</td>';
                echo '<td>'.$resultArray['date'].'</td>';
-               echo '<td style="background-color:00334E;"><a href="'.$resultArray['link'].'" class="btn btn-primary d-flex justify-content-center">Register</a></td>';
+               echo '<td style="background-color:00334E;"><a href="'.$resultArray['link'].'" class="btn btn-primary d-flex justify-content-center" style="background-colo: #00334E;">Register</a></td>';
                echo '</tr>';
                
             }
@@ -127,5 +127,9 @@ table > .btn {
 
 
     </div>
+
+    <footer>
+  This site is created by Universal College
+</footer>
   </body>
 </html>
